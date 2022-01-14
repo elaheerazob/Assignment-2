@@ -4,3 +4,38 @@
     padding: 0;
 }
 /* Global css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* <!------------------------------ 
+||| NavBar section |||
+------------------------------> */
+.nav-name{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.116);
+    height: 100px;
+    align-items: center;
+}
+.logo{
+
+}
+.logo h1{
+
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 34px;
+    
+}
