@@ -17,7 +17,7 @@ body{
 .nav-name{
     display: flex;
     justify-content: space-between;
-    background: rgba(0, 0, 0, 0.116);
+    /* background: rgba(0, 0, 0, 0.116); */
     height: 100px;
     align-items: center;
 }
@@ -25,7 +25,8 @@ body{
 
 }
 .logo h1{
-
+    font-size: 24px;
+    font-weight: 700;
 }
 .navbar{
     display: flex;
@@ -36,6 +37,54 @@ body{
 .navbar li a{
     text-decoration: none;
     color: #000;
-    margin-left: 34px;
+    margin-left: 34px;   
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* <!------------------------------ 
+||| Banner section |||
+------------------------------>*/
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    justify-content: center;
+    align-items: center;
     
+    
+}
+.left-benner{
+
+}
+.left-benner h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    
+}
+.left-benner p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.btn{
+    border: none;
+    background: #E02C6D;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 41px;
+    padding:10px 25px ;
+}
+.btn i{
+    margin-left: 5px; 
+}
+.right-benner{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.right-benner img{
+
 }
