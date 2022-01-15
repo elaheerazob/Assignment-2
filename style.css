@@ -246,3 +246,40 @@ footer{
     margin-top: 17px;
     margin-left: 10px;
 }
+
+
+/* <!------------------------------ 
+        ||| Media queries |||
+------------------------------>*/
+
+/* Mobile _devices */
+@media only screen and (max-width:688px) {
+    .logo {
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .left-benner{
+        text-align: center;
+        padding: 15px;
+    }
+    .left-benner p{
+        
+    }
+
+    .Collections{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .clients{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+    }
+}
