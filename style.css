@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* Global css */
 body{
@@ -9,6 +10,7 @@ body{
 }
 .container{
     max-width: 1200px;
+    padding: 10px 70px;
     margin: 0 auto;
 }
 /* <!------------------------------ 
@@ -190,6 +192,7 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 10px;
+    overflow: hidden;
 }
 .client img{
     width: 94px;
@@ -245,70 +248,84 @@ footer{
         ||| Media queries |||
 ------------------------------>*/
 
+
+@media (max-width:1200px) {
+    .container{
+        width: 100%;
+    }
+    .nav-name{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+
+/* Tablet _devices */
+@media (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .nav-name{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        width: 100%;
+    }
+    .left-benner{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-benner h1{
+        font-size: 30px;
+    }
+    .right-benner{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Collections,
+    .clients{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .clients{
+        grid-gap: 6px;
+    }
+ 
+}
 /* Mobile _devices */
-@media only screen and (max-width:688px) {
-   footer{
-       width: 100%;
-       color: #000;
-   }
-    .logo {
-        display: none;
+@media (max-width:700px) {
+    .container{
+        width: 100%;
     }
     .navbar{
         display: none;
     }
-    .banner{
+    .banner,
+    .Collections,
+    .clients
+    {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-       
+        grid-template-columns: 1fr;
+        align-items: center;
     }
-    .left-benner{
-        text-align: center;
-        padding: 15px;
-        
+    .right-benner img{
+        width: 50%;
     }
     .right-benner{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .Collections{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        justify-content: space-around;
-        justify-items: center;
-    }
-    .clients{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 20px;
-    }
-   
-    
-}
-/* <!------------------------------ 
-        ||| Media queries |||
------------------------------->*/
-
-/* Tablet _devices */
-@media only screen and (min-width: 688px) and (max-width: 922px) {
-    .container{
-        width: 100%;
-        
-    }
-    .banner{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
-    }
-    .Collections{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        justify-content: space-around;
-        justify-items: center;
-    }
-    .clients{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-row-gap: 20px;
+    .right-benner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
