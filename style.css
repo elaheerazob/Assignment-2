@@ -88,6 +88,11 @@ body{
 .right-benner img{
 
 }
+.right-benner:hover .banner-img{
+    transform: scale(0.9) rotate(360deg);
+    /* transform: scale(1.1); */
+    transition:1s ease-in-out;
+}
 
 /* <!------------------------------ 
 ||| Collection section |||
@@ -110,6 +115,12 @@ body{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 30px;
+    overflow: hidden;
+}
+.Collection:hover .img{
+    transform: scale(0.9);
+    /* transform: scale(1.1); */
+    transition:0.7s ease-in-out 0.1s;
     
 }
 .Collection img{
