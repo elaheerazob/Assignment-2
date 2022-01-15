@@ -284,6 +284,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        
     }
     .Collections,
     .clients{
@@ -319,6 +320,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        background-position: center;
     }
     .right-benner{
         display: flex;
