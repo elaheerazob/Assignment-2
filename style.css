@@ -21,9 +21,7 @@ body{
     height: 100px;
     align-items: center;
 }
-.logo{
 
-}
 .logo h1{
     font-size: 24px;
     font-weight: 700;
@@ -54,9 +52,7 @@ body{
     
     
 }
-.left-benner{
 
-}
 .left-benner h1{
     font-size: 52px;
     font-weight: 700;
@@ -85,9 +81,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.right-benner img{
 
-}
 .right-benner:hover .banner-img{
     transform: scale(0.9) rotate(360deg);
     /* transform: scale(1.1); */
@@ -175,9 +169,7 @@ body{
 /* <!------------------------------ 
 ||| Clients Says section |||
 ------------------------------>*/
-.client-says{
 
-}
 .clients-title{
     text-align: center;
     margin: 50px 0;
@@ -203,9 +195,7 @@ body{
     width: 94px;
     height: 94px;
 }
-.client h3{
 
-}
 .client p{
     font-size: 16px;
     font-weight: 500;
@@ -228,9 +218,7 @@ footer{
 .content p{
     margin: 3px 0;
 }
-.all-info{
 
-}
 .all-info h2{
     font-size: 24px;
     color: #fff;
@@ -272,10 +260,7 @@ footer{
         text-align: center;
         padding: 15px;
     }
-    .left-benner p{
-        
-    }
-
+    
     .Collections{
         display: grid;
         grid-template-columns: repeat(1,1fr);
