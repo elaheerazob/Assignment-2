@@ -109,7 +109,7 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     
 }
 .Collection img{
@@ -146,12 +146,53 @@ body{
     display: flex;
     justify-content: flex-end;
     margin: 50px 0;
+    cursor: pointer;
 }
 .see-more p{
     color: #E02C6D;
     font-size: 16px;
     font-weight: 700;
+    
 }
 .see-more i{
     margin-left: 5px;
+}
+
+/* <!------------------------------ 
+||| Footer section |||
+------------------------------>*/
+footer{
+    background: #0A0826;
+    height: 239px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    margin: 3px 0;
+}
+.all-info{
+
+}
+.all-info h2{
+    font-size: 24px;
+    color: #fff;
+
+}
+.all-info p{
+    font-size: 14px;
+    color: #fff;
+}
+.icon-f{
+    text-align: center;
+}
+.icon-f i{
+    background-color: #a3b4be;
+    padding: 2px;
+    border-radius: 50%;
+    margin-top: 17px;
+    margin-left: 10px;
 }
