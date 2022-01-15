@@ -288,3 +288,30 @@ footer{
         grid-row-gap: 20px;
     }
 }
+/* <!------------------------------ 
+        ||| Media queries |||
+------------------------------>*/
+
+/* Tablet _devices */
+@media only screen and (min-width: 688px) and (max-width: 922px) {
+    .container{
+        width: 100%;
+        
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .Collections{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-around;
+        justify-items: center;
+    }
+    .clients{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 20px;
+    }
+}
